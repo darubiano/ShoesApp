@@ -5,7 +5,6 @@ import 'package:shoesapp/src/pages/ShoeDescPage.dart';
 
 class ShoeSize extends StatelessWidget {
   final bool fullScreen;
-
   ShoeSize({
     this.fullScreen=false
   });
