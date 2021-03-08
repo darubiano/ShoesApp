@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomAppBar extends StatelessWidget {
   final String texto;
-  CustomAppBar({
-    @required this.texto
-  });
+  CustomAppBar({this.texto});
 
   @override
   Widget build(BuildContext context) {

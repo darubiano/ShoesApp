@@ -3,9 +3,7 @@ import 'package:shoesapp/src/widgets/CustomWigets.dart';
 
 class CarButton extends StatelessWidget {
   final double monto;
-  CarButton({
-    @required this.monto
-  });
+  CarButton({this.monto});
   @override
   Widget build(BuildContext context) {
     return Padding(

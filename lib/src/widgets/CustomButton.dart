@@ -6,7 +6,7 @@ class CustomButton extends StatelessWidget {
   final double ancho;
   final Color color;
   CustomButton({
-    @required this.titulo,
+    this.titulo,
     this.alto = 50,
     this.ancho = 150,
     this.color = Colors.orange

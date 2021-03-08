@@ -5,10 +5,7 @@ class ShoeDesc extends StatelessWidget {
   final String titulo;
   final String descripcion;
 
-  ShoeDesc({
-    @required this.titulo,
-    @required this.descripcion
-  });
+  ShoeDesc({this.titulo,this.descripcion});
 
   @override
   Widget build(BuildContext context) {
